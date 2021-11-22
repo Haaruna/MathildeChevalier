@@ -1,0 +1,170 @@
+body {
+	font-size:30px;
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding:0px;
+}
+@font-face{
+	font-family: "deux";
+	src: url("../font/canne.otf");
+}
+@font-face{
+font-family: "quatre";
+	src: url("../font/quatre.ttf");
+}
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior:smooth;
+}
+.topnav{
+	background-color:whitesmoke;
+	overflow: hidden;
+	font-family: "deux";
+	letter-spacing: 2px;
+	font-weight: bold;
+	word-spacing: 1px;
+
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 35px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.topnav a:hover{
+    background-color: rgb(0, 0, 0);
+	color: whitesmoke;
+    text-decoration: none;
+	flex-grow:1.5; 
+}
+.topnav a.active {
+    background-color: black;
+	color: whitesmoke;	  
+}
+.topnav .icon {
+	display: none;
+	background-color: black;
+	color: whitesmoke;	
+	height: 98px;
+	width: 100px;
+}
+  @media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+#para1{
+	background:url("https://drive.google.com/uc?id=1_sOrZs33hQn15A9dsQRGVI1HIu4607Xa");
+	background-position:center center;
+	width:100%;
+	height: 622px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#para1 p{
+	font-size: 140px;
+	font-weight: bold;
+	text-align: center;
+	padding-top:165px;
+	font-family: "deux";
+	color:white;
+	-webkit-text-stroke: 0.1px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+}
+#para2 h1{
+	font-size: 25x;
+	font-weight: bold;
+	text-align: center;
+}
+section{
+	background-color:whitesmoke;
+	font-family: "quatre";
+	font-size:17px;
+}
+img{
+	width: 80%;
+	text-align:center;
+	margin:auto;
+	display: flex;
+}
+img:hover{
+	opacity: 0.7;
+	transition: 0.8s;
+}
+.row{
+	text-align: center;
+	padding-top: 70px;
+}
+#un{
+	padding-top:30px;
+}
+#dernier{
+
+	padding-top:30px;
+	margin-bottom:60px;
+
+}
+#deux{
+	padding-top:80px;
+	margin-bottom: 30px;
+}
+#text{
+	padding-top:50px;
+}
+@media screen and (max-width: 992px) {
+	#para1 p{
+		display:none;	  
+	}
+	.image{
+		width: 400px;	 
+		margin-top:50px; 
+	}
+}
+@media screen and (max-width: 770px) {
+	#para1 p{
+		display:none;	  
+	}
+	.image{
+		width: 500px;	 
+		margin-top:50px; 
+	}
+}
+.image:hover { 
+	opacity:0.9; 
+}   
+
+#contact h1{
+	font-size:50px;
+	text-align: center;
+	margin-top:50px;
+}
+
+
+	
+
+
+
